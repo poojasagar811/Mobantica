@@ -1,0 +1,1191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1862520A2C2C6F5D00AAA67E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186252092C2C6F5D00AAA67E /* Product.swift */; };
+		1862520C2C2C816A00AAA67E /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1862520B2C2C816A00AAA67E /* NSURLSession.swift */; };
+		186252A82C2C8CAA00AAA67E /* GraphikCompact-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252112C2C8CA900AAA67E /* GraphikCompact-SuperItalic-Trial.otf */; };
+		186252A92C2C8CAA00AAA67E /* GraphikCompact-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252122C2C8CA900AAA67E /* GraphikCompact-LightItalic-Trial.otf */; };
+		186252AA2C2C8CAA00AAA67E /* GraphikCompact-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252132C2C8CA900AAA67E /* GraphikCompact-Regular-Trial.otf */; };
+		186252AB2C2C8CAA00AAA67E /* GraphikCompact-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252142C2C8CA900AAA67E /* GraphikCompact-ThinItalic-Trial.otf */; };
+		186252AC2C2C8CAA00AAA67E /* GraphikCompact-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252152C2C8CA900AAA67E /* GraphikCompact-Extralight-Trial.otf */; };
+		186252AD2C2C8CAA00AAA67E /* GraphikCompact-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252162C2C8CA900AAA67E /* GraphikCompact-BoldItalic-Trial.otf */; };
+		186252AE2C2C8CAA00AAA67E /* GraphikCompact-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252172C2C8CA900AAA67E /* GraphikCompact-ExtralightItalic-Trial.otf */; };
+		186252AF2C2C8CAA00AAA67E /* GraphikCompact-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252182C2C8CA900AAA67E /* GraphikCompact-Bold-Trial.otf */; };
+		186252B02C2C8CAA00AAA67E /* GraphikCompact-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252192C2C8CA900AAA67E /* GraphikCompact-Thin-Trial.otf */; };
+		186252B12C2C8CAA00AAA67E /* GraphikCompact-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862521A2C2C8CA900AAA67E /* GraphikCompact-Semibold-Trial.otf */; };
+		186252B22C2C8CAA00AAA67E /* GraphikCompact-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862521B2C2C8CA900AAA67E /* GraphikCompact-RegularItalic-Trial.otf */; };
+		186252B32C2C8CAA00AAA67E /* GraphikCompact-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862521C2C2C8CA900AAA67E /* GraphikCompact-MediumItalic-Trial.otf */; };
+		186252B42C2C8CAA00AAA67E /* GraphikCompact-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862521D2C2C8CA900AAA67E /* GraphikCompact-Medium-Trial.otf */; };
+		186252B52C2C8CAA00AAA67E /* GraphikCompact-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862521E2C2C8CA900AAA67E /* GraphikCompact-Super-Trial.otf */; };
+		186252B62C2C8CAA00AAA67E /* GraphikCompact-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862521F2C2C8CA900AAA67E /* GraphikCompact-BlackItalic-Trial.otf */; };
+		186252B72C2C8CAA00AAA67E /* GraphikCompact-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252202C2C8CA900AAA67E /* GraphikCompact-Light-Trial.otf */; };
+		186252B82C2C8CAA00AAA67E /* GraphikCompact-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252212C2C8CA900AAA67E /* GraphikCompact-Black-Trial.otf */; };
+		186252B92C2C8CAA00AAA67E /* GraphikCompact-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252222C2C8CA900AAA67E /* GraphikCompact-SemiboldItalic-Trial.otf */; };
+		186252BA2C2C8CAA00AAA67E /* GraphikCondensed-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252242C2C8CA900AAA67E /* GraphikCondensed-ExtralightItalic-Trial.otf */; };
+		186252BB2C2C8CAA00AAA67E /* GraphikCondensed-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252252C2C8CA900AAA67E /* GraphikCondensed-Super-Trial.otf */; };
+		186252BC2C2C8CAA00AAA67E /* GraphikCondensed-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252262C2C8CA900AAA67E /* GraphikCondensed-Light-Trial.otf */; };
+		186252BD2C2C8CAA00AAA67E /* GraphikCondensed-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252272C2C8CA900AAA67E /* GraphikCondensed-Black-Trial.otf */; };
+		186252BE2C2C8CAA00AAA67E /* GraphikCondensed-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252282C2C8CA900AAA67E /* GraphikCondensed-SuperItalic-Trial.otf */; };
+		186252BF2C2C8CAA00AAA67E /* GraphikCondensed-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252292C2C8CA900AAA67E /* GraphikCondensed-Medium-Trial.otf */; };
+		186252C02C2C8CAA00AAA67E /* GraphikCondensed-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862522A2C2C8CA900AAA67E /* GraphikCondensed-LightItalic-Trial.otf */; };
+		186252C12C2C8CAA00AAA67E /* GraphikCondensed-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862522B2C2C8CA900AAA67E /* GraphikCondensed-SemiboldItalic-Trial.otf */; };
+		186252C22C2C8CAA00AAA67E /* GraphikCondensed-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862522C2C2C8CA900AAA67E /* GraphikCondensed-MediumItalic-Trial.otf */; };
+		186252C32C2C8CAA00AAA67E /* GraphikCondensed-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862522D2C2C8CA900AAA67E /* GraphikCondensed-RegularItalic-Trial.otf */; };
+		186252C42C2C8CAA00AAA67E /* GraphikCondensed-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862522E2C2C8CA900AAA67E /* GraphikCondensed-Thin-Trial.otf */; };
+		186252C52C2C8CAA00AAA67E /* GraphikCondensed-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862522F2C2C8CA900AAA67E /* GraphikCondensed-Bold-Trial.otf */; };
+		186252C62C2C8CAA00AAA67E /* GraphikCondensed-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252302C2C8CA900AAA67E /* GraphikCondensed-BoldItalic-Trial.otf */; };
+		186252C72C2C8CAA00AAA67E /* GraphikCondensed-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252312C2C8CA900AAA67E /* GraphikCondensed-Extralight-Trial.otf */; };
+		186252C82C2C8CAA00AAA67E /* GraphikCondensed-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252322C2C8CA900AAA67E /* GraphikCondensed-BlackItalic-Trial.otf */; };
+		186252C92C2C8CAA00AAA67E /* GraphikCondensed-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252332C2C8CA900AAA67E /* GraphikCondensed-Regular-Trial.otf */; };
+		186252CA2C2C8CAA00AAA67E /* GraphikCondensed-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252342C2C8CA900AAA67E /* GraphikCondensed-ThinItalic-Trial.otf */; };
+		186252CB2C2C8CAA00AAA67E /* GraphikCondensed-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252352C2C8CA900AAA67E /* GraphikCondensed-Semibold-Trial.otf */; };
+		186252CC2C2C8CAA00AAA67E /* GraphikXXCondensed-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252372C2C8CA900AAA67E /* GraphikXXCondensed-MediumItalic-Trial.otf */; };
+		186252CD2C2C8CAA00AAA67E /* GraphikXXCondensed-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252382C2C8CA900AAA67E /* GraphikXXCondensed-Super-Trial.otf */; };
+		186252CE2C2C8CAA00AAA67E /* GraphikXXCondensed-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252392C2C8CA900AAA67E /* GraphikXXCondensed-Regular-Trial.otf */; };
+		186252CF2C2C8CAA00AAA67E /* GraphikXXCondensed-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862523A2C2C8CA900AAA67E /* GraphikXXCondensed-SemiboldItalic-Trial.otf */; };
+		186252D02C2C8CAA00AAA67E /* GraphikXXCondensed-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862523B2C2C8CA900AAA67E /* GraphikXXCondensed-Light-Trial.otf */; };
+		186252D12C2C8CAA00AAA67E /* GraphikXXCondensed-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862523C2C2C8CA900AAA67E /* GraphikXXCondensed-Black-Trial.otf */; };
+		186252D22C2C8CAA00AAA67E /* GraphikXXCondensed-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862523D2C2C8CA900AAA67E /* GraphikXXCondensed-Thin-Trial.otf */; };
+		186252D32C2C8CAA00AAA67E /* GraphikXXCondensed-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862523E2C2C8CA900AAA67E /* GraphikXXCondensed-RegularItalic-Trial.otf */; };
+		186252D42C2C8CAA00AAA67E /* GraphikXXCondensed-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862523F2C2C8CA900AAA67E /* GraphikXXCondensed-Bold-Trial.otf */; };
+		186252D52C2C8CAA00AAA67E /* GraphikXXCondensed-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252402C2C8CA900AAA67E /* GraphikXXCondensed-BlackItalic-Trial.otf */; };
+		186252D62C2C8CAA00AAA67E /* GraphikXXCondensed-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252412C2C8CA900AAA67E /* GraphikXXCondensed-ExtralightItalic-Trial.otf */; };
+		186252D72C2C8CAA00AAA67E /* GraphikXXCondensed-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252422C2C8CA900AAA67E /* GraphikXXCondensed-Semibold-Trial.otf */; };
+		186252D82C2C8CAA00AAA67E /* GraphikXXCondensed-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252432C2C8CA900AAA67E /* GraphikXXCondensed-ThinItalic-Trial.otf */; };
+		186252D92C2C8CAA00AAA67E /* GraphikXXCondensed-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252442C2C8CA900AAA67E /* GraphikXXCondensed-BoldItalic-Trial.otf */; };
+		186252DA2C2C8CAA00AAA67E /* GraphikXXCondensed-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252452C2C8CA900AAA67E /* GraphikXXCondensed-Extralight-Trial.otf */; };
+		186252DB2C2C8CAA00AAA67E /* GraphikXXCondensed-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252462C2C8CA900AAA67E /* GraphikXXCondensed-Medium-Trial.otf */; };
+		186252DC2C2C8CAA00AAA67E /* GraphikXXCondensed-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252472C2C8CA900AAA67E /* GraphikXXCondensed-SuperItalic-Trial.otf */; };
+		186252DD2C2C8CAA00AAA67E /* GraphikXXCondensed-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252482C2C8CA900AAA67E /* GraphikXXCondensed-LightItalic-Trial.otf */; };
+		186252DE2C2C8CAA00AAA67E /* GraphikXXXCondensed-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862524A2C2C8CA900AAA67E /* GraphikXXXCondensed-Black-Trial.otf */; };
+		186252DF2C2C8CAA00AAA67E /* GraphikXXXCondensed-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862524B2C2C8CA900AAA67E /* GraphikXXXCondensed-BlackItalic-Trial.otf */; };
+		186252E02C2C8CAA00AAA67E /* GraphikXXXCondensed-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862524C2C2C8CA900AAA67E /* GraphikXXXCondensed-SemiboldItalic-Trial.otf */; };
+		186252E12C2C8CAA00AAA67E /* GraphikXXXCondensed-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862524D2C2C8CA900AAA67E /* GraphikXXXCondensed-RegularItalic-Trial.otf */; };
+		186252E22C2C8CAA00AAA67E /* GraphikXXXCondensed-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862524E2C2C8CA900AAA67E /* GraphikXXXCondensed-Medium-Trial.otf */; };
+		186252E32C2C8CAA00AAA67E /* GraphikXXXCondensed-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862524F2C2C8CA900AAA67E /* GraphikXXXCondensed-Super-Trial.otf */; };
+		186252E42C2C8CAA00AAA67E /* GraphikXXXCondensed-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252502C2C8CA900AAA67E /* GraphikXXXCondensed-ThinItalic-Trial.otf */; };
+		186252E52C2C8CAA00AAA67E /* GraphikXXXCondensed-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252512C2C8CA900AAA67E /* GraphikXXXCondensed-ExtralightItalic-Trial.otf */; };
+		186252E62C2C8CAA00AAA67E /* GraphikXXXCondensed-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252522C2C8CA900AAA67E /* GraphikXXXCondensed-Light-Trial.otf */; };
+		186252E72C2C8CAA00AAA67E /* GraphikXXXCondensed-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252532C2C8CA900AAA67E /* GraphikXXXCondensed-Extralight-Trial.otf */; };
+		186252E82C2C8CAA00AAA67E /* GraphikXXXCondensed-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252542C2C8CA900AAA67E /* GraphikXXXCondensed-BoldItalic-Trial.otf */; };
+		186252E92C2C8CAA00AAA67E /* GraphikXXXCondensed-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252552C2C8CA900AAA67E /* GraphikXXXCondensed-MediumItalic-Trial.otf */; };
+		186252EA2C2C8CAA00AAA67E /* GraphikXXXCondensed-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252562C2C8CA900AAA67E /* GraphikXXXCondensed-LightItalic-Trial.otf */; };
+		186252EB2C2C8CAA00AAA67E /* GraphikXXXCondensed-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252572C2C8CA900AAA67E /* GraphikXXXCondensed-SuperItalic-Trial.otf */; };
+		186252EC2C2C8CAA00AAA67E /* GraphikXXXCondensed-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252582C2C8CA900AAA67E /* GraphikXXXCondensed-Semibold-Trial.otf */; };
+		186252ED2C2C8CAA00AAA67E /* GraphikXXXCondensed-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252592C2C8CA900AAA67E /* GraphikXXXCondensed-Thin-Trial.otf */; };
+		186252EE2C2C8CAA00AAA67E /* GraphikXXXCondensed-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862525A2C2C8CA900AAA67E /* GraphikXXXCondensed-Bold-Trial.otf */; };
+		186252EF2C2C8CAA00AAA67E /* GraphikXXXCondensed-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862525B2C2C8CA900AAA67E /* GraphikXXXCondensed-Regular-Trial.otf */; };
+		186252F02C2C8CAA00AAA67E /* GraphikXCondensed-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862525D2C2C8CA900AAA67E /* GraphikXCondensed-SuperItalic-Trial.otf */; };
+		186252F12C2C8CAA00AAA67E /* GraphikXCondensed-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862525E2C2C8CA900AAA67E /* GraphikXCondensed-SemiboldItalic-Trial.otf */; };
+		186252F22C2C8CAA00AAA67E /* GraphikXCondensed-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862525F2C2C8CA900AAA67E /* GraphikXCondensed-LightItalic-Trial.otf */; };
+		186252F32C2C8CAA00AAA67E /* GraphikXCondensed-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252602C2C8CA900AAA67E /* GraphikXCondensed-MediumItalic-Trial.otf */; };
+		186252F42C2C8CAA00AAA67E /* GraphikXCondensed-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252612C2C8CA900AAA67E /* GraphikXCondensed-ExtralightItalic-Trial.otf */; };
+		186252F52C2C8CAA00AAA67E /* GraphikXCondensed-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252622C2C8CA900AAA67E /* GraphikXCondensed-Semibold-Trial.otf */; };
+		186252F62C2C8CAA00AAA67E /* GraphikXCondensed-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252632C2C8CA900AAA67E /* GraphikXCondensed-Regular-Trial.otf */; };
+		186252F72C2C8CAA00AAA67E /* GraphikXCondensed-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252642C2C8CA900AAA67E /* GraphikXCondensed-Medium-Trial.otf */; };
+		186252F82C2C8CAA00AAA67E /* GraphikXCondensed-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252652C2C8CA900AAA67E /* GraphikXCondensed-Black-Trial.otf */; };
+		186252F92C2C8CAA00AAA67E /* GraphikXCondensed-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252662C2C8CA900AAA67E /* GraphikXCondensed-BlackItalic-Trial.otf */; };
+		186252FA2C2C8CAA00AAA67E /* GraphikXCondensed-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252672C2C8CA900AAA67E /* GraphikXCondensed-Thin-Trial.otf */; };
+		186252FB2C2C8CAA00AAA67E /* GraphikXCondensed-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252682C2C8CA900AAA67E /* GraphikXCondensed-Bold-Trial.otf */; };
+		186252FC2C2C8CAA00AAA67E /* GraphikXCondensed-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252692C2C8CA900AAA67E /* GraphikXCondensed-Light-Trial.otf */; };
+		186252FD2C2C8CAA00AAA67E /* GraphikXCondensed-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862526A2C2C8CA900AAA67E /* GraphikXCondensed-BoldItalic-Trial.otf */; };
+		186252FE2C2C8CAA00AAA67E /* GraphikXCondensed-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862526B2C2C8CA900AAA67E /* GraphikXCondensed-Extralight-Trial.otf */; };
+		186252FF2C2C8CAA00AAA67E /* GraphikXCondensed-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862526C2C2C8CA900AAA67E /* GraphikXCondensed-RegularItalic-Trial.otf */; };
+		186253002C2C8CAA00AAA67E /* GraphikXCondensed-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862526D2C2C8CA900AAA67E /* GraphikXCondensed-Super-Trial.otf */; };
+		186253012C2C8CAA00AAA67E /* GraphikXCondensed-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862526E2C2C8CA900AAA67E /* GraphikXCondensed-ThinItalic-Trial.otf */; };
+		186253022C2C8CAA00AAA67E /* Graphik-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252702C2C8CA900AAA67E /* Graphik-Regular-Trial.otf */; };
+		186253032C2C8CAA00AAA67E /* Graphik-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252712C2C8CA900AAA67E /* Graphik-Medium-Trial.otf */; };
+		186253042C2C8CAA00AAA67E /* Graphik-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252722C2C8CA900AAA67E /* Graphik-BlackItalic-Trial.otf */; };
+		186253052C2C8CAA00AAA67E /* Graphik-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252732C2C8CA900AAA67E /* Graphik-Super-Trial.otf */; };
+		186253062C2C8CAA00AAA67E /* Graphik-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252742C2C8CA900AAA67E /* Graphik-Light-Trial.otf */; };
+		186253072C2C8CAA00AAA67E /* Graphik-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252752C2C8CA900AAA67E /* Graphik-ExtralightItalic-Trial.otf */; };
+		186253082C2C8CAA00AAA67E /* Graphik-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252762C2C8CA900AAA67E /* Graphik-Black-Trial.otf */; };
+		186253092C2C8CAA00AAA67E /* Graphik-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252772C2C8CA900AAA67E /* Graphik-Bold-Trial.otf */; };
+		1862530A2C2C8CAA00AAA67E /* Graphik-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252782C2C8CA900AAA67E /* Graphik-Thin-Trial.otf */; };
+		1862530B2C2C8CAA00AAA67E /* Graphik-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252792C2C8CA900AAA67E /* Graphik-ThinItalic-Trial.otf */; };
+		1862530C2C2C8CAA00AAA67E /* Graphik-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862527A2C2C8CA900AAA67E /* Graphik-RegularItalic-Trial.otf */; };
+		1862530D2C2C8CAA00AAA67E /* Graphik-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862527B2C2C8CA900AAA67E /* Graphik-Semibold-Trial.otf */; };
+		1862530E2C2C8CAA00AAA67E /* Graphik-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862527C2C2C8CA900AAA67E /* Graphik-SuperItalic-Trial.otf */; };
+		1862530F2C2C8CAA00AAA67E /* Graphik-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862527D2C2C8CA900AAA67E /* Graphik-LightItalic-Trial.otf */; };
+		186253102C2C8CAA00AAA67E /* Graphik-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862527E2C2C8CA900AAA67E /* Graphik-BoldItalic-Trial.otf */; };
+		186253112C2C8CAA00AAA67E /* Graphik-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862527F2C2C8CA900AAA67E /* Graphik-Extralight-Trial.otf */; };
+		186253122C2C8CAA00AAA67E /* Graphik-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252802C2C8CA900AAA67E /* Graphik-SemiboldItalic-Trial.otf */; };
+		186253132C2C8CAA00AAA67E /* Graphik-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252812C2C8CA900AAA67E /* Graphik-MediumItalic-Trial.otf */; };
+		186253142C2C8CAA00AAA67E /* GraphikWide-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252832C2C8CA900AAA67E /* GraphikWide-SemiboldItalic-Trial.otf */; };
+		186253152C2C8CAA00AAA67E /* GraphikWide-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252842C2C8CA900AAA67E /* GraphikWide-Medium-Trial.otf */; };
+		186253162C2C8CAA00AAA67E /* GraphikWide-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252852C2C8CA900AAA67E /* GraphikWide-Regular-Trial.otf */; };
+		186253172C2C8CAA00AAA67E /* GraphikWide-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252862C2C8CA900AAA67E /* GraphikWide-Black-Trial.otf */; };
+		186253182C2C8CAA00AAA67E /* GraphikWide-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252872C2C8CA900AAA67E /* GraphikWide-ThinItalic-Trial.otf */; };
+		186253192C2C8CAA00AAA67E /* GraphikWide-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252882C2C8CA900AAA67E /* GraphikWide-Semibold-Trial.otf */; };
+		1862531A2C2C8CAA00AAA67E /* GraphikWide-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252892C2C8CA900AAA67E /* GraphikWide-Light-Trial.otf */; };
+		1862531B2C2C8CAA00AAA67E /* GraphikWide-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862528A2C2C8CA900AAA67E /* GraphikWide-BlackItalic-Trial.otf */; };
+		1862531C2C2C8CAA00AAA67E /* GraphikWide-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862528B2C2C8CA900AAA67E /* GraphikWide-RegularItalic-Trial.otf */; };
+		1862531D2C2C8CAA00AAA67E /* GraphikWide-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862528C2C2C8CA900AAA67E /* GraphikWide-Extralight-Trial.otf */; };
+		1862531E2C2C8CAA00AAA67E /* GraphikWide-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862528D2C2C8CA900AAA67E /* GraphikWide-ExtralightItalic-Trial.otf */; };
+		1862531F2C2C8CAA00AAA67E /* GraphikWide-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862528E2C2C8CA900AAA67E /* GraphikWide-BoldItalic-Trial.otf */; };
+		186253202C2C8CAA00AAA67E /* GraphikWide-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862528F2C2C8CA900AAA67E /* GraphikWide-Super-Trial.otf */; };
+		186253212C2C8CAA00AAA67E /* GraphikWide-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252902C2C8CA900AAA67E /* GraphikWide-Thin-Trial.otf */; };
+		186253222C2C8CAA00AAA67E /* GraphikWide-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252912C2C8CA900AAA67E /* GraphikWide-MediumItalic-Trial.otf */; };
+		186253232C2C8CAA00AAA67E /* GraphikWide-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252922C2C8CA900AAA67E /* GraphikWide-Bold-Trial.otf */; };
+		186253242C2C8CAA00AAA67E /* GraphikWide-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252932C2C8CA900AAA67E /* GraphikWide-SuperItalic-Trial.otf */; };
+		186253252C2C8CAA00AAA67E /* GraphikWide-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252942C2C8CA900AAA67E /* GraphikWide-LightItalic-Trial.otf */; };
+		186253262C2C8CAA00AAA67E /* GraphikXXXXCondensed-LightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252962C2C8CA900AAA67E /* GraphikXXXXCondensed-LightItalic-Trial.otf */; };
+		186253272C2C8CAA00AAA67E /* GraphikXXXXCondensed-SuperItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252972C2C8CA900AAA67E /* GraphikXXXXCondensed-SuperItalic-Trial.otf */; };
+		186253282C2C8CAA00AAA67E /* GraphikXXXXCondensed-ThinItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252982C2C8CA900AAA67E /* GraphikXXXXCondensed-ThinItalic-Trial.otf */; };
+		186253292C2C8CAA00AAA67E /* GraphikXXXXCondensed-RegularItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252992C2C8CA900AAA67E /* GraphikXXXXCondensed-RegularItalic-Trial.otf */; };
+		1862532A2C2C8CAA00AAA67E /* GraphikXXXXCondensed-Extralight-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862529A2C2C8CA900AAA67E /* GraphikXXXXCondensed-Extralight-Trial.otf */; };
+		1862532B2C2C8CAA00AAA67E /* GraphikXXXXCondensed-BoldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862529B2C2C8CA900AAA67E /* GraphikXXXXCondensed-BoldItalic-Trial.otf */; };
+		1862532C2C2C8CAA00AAA67E /* GraphikXXXXCondensed-SemiboldItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862529C2C2C8CA900AAA67E /* GraphikXXXXCondensed-SemiboldItalic-Trial.otf */; };
+		1862532D2C2C8CAA00AAA67E /* GraphikXXXXCondensed-ExtralightItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862529D2C2C8CA900AAA67E /* GraphikXXXXCondensed-ExtralightItalic-Trial.otf */; };
+		1862532E2C2C8CAA00AAA67E /* GraphikXXXXCondensed-Black-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862529E2C2C8CA900AAA67E /* GraphikXXXXCondensed-Black-Trial.otf */; };
+		1862532F2C2C8CAA00AAA67E /* GraphikXXXXCondensed-MediumItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1862529F2C2C8CA900AAA67E /* GraphikXXXXCondensed-MediumItalic-Trial.otf */; };
+		186253302C2C8CAA00AAA67E /* GraphikXXXXCondensed-Medium-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A02C2C8CA900AAA67E /* GraphikXXXXCondensed-Medium-Trial.otf */; };
+		186253312C2C8CAA00AAA67E /* GraphikXXXXCondensed-BlackItalic-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A12C2C8CA900AAA67E /* GraphikXXXXCondensed-BlackItalic-Trial.otf */; };
+		186253322C2C8CAA00AAA67E /* GraphikXXXXCondensed-Super-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A22C2C8CA900AAA67E /* GraphikXXXXCondensed-Super-Trial.otf */; };
+		186253332C2C8CAA00AAA67E /* GraphikXXXXCondensed-Light-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A32C2C8CA900AAA67E /* GraphikXXXXCondensed-Light-Trial.otf */; };
+		186253342C2C8CAA00AAA67E /* GraphikXXXXCondensed-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A42C2C8CA900AAA67E /* GraphikXXXXCondensed-Regular-Trial.otf */; };
+		186253352C2C8CAA00AAA67E /* GraphikXXXXCondensed-Semibold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A52C2C8CA900AAA67E /* GraphikXXXXCondensed-Semibold-Trial.otf */; };
+		186253362C2C8CAA00AAA67E /* GraphikXXXXCondensed-Bold-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A62C2C8CA900AAA67E /* GraphikXXXXCondensed-Bold-Trial.otf */; };
+		186253372C2C8CAA00AAA67E /* GraphikXXXXCondensed-Thin-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 186252A72C2C8CA900AAA67E /* GraphikXXXXCondensed-Thin-Trial.otf */; };
+		186253392C2C8F9100AAA67E /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186253382C2C8F9100AAA67E /* ProductDetailViewController.swift */; };
+		4031E6002C2D4CDD0038F1CE /* reviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4031E5FE2C2D4CDD0038F1CE /* reviewTableViewCell.swift */; };
+		4031E6012C2D4CDD0038F1CE /* reviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4031E5FF2C2D4CDD0038F1CE /* reviewTableViewCell.xib */; };
+		4031E6032C2D505C0038F1CE /* reviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4031E6022C2D505C0038F1CE /* reviewViewController.swift */; };
+		408942332C2C144C00C2F734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408942322C2C144C00C2F734 /* AppDelegate.swift */; };
+		408942352C2C144C00C2F734 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408942342C2C144C00C2F734 /* SceneDelegate.swift */; };
+		408942372C2C144C00C2F734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408942362C2C144C00C2F734 /* ViewController.swift */; };
+		4089423A2C2C144C00C2F734 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 408942392C2C144C00C2F734 /* Base */; };
+		4089423D2C2C144C00C2F734 /* mobantica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4089423B2C2C144C00C2F734 /* mobantica.xcdatamodeld */; };
+		4089423F2C2C144D00C2F734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4089423E2C2C144D00C2F734 /* Assets.xcassets */; };
+		408942422C2C144D00C2F734 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 408942412C2C144D00C2F734 /* Base */; };
+		4089424B2C2C248800C2F734 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089424A2C2C248800C2F734 /* HomeViewController.swift */; };
+		4089424E2C2C36E900C2F734 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089424D2C2C36E900C2F734 /* Extension.swift */; };
+		408942512C2C432500C2F734 /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 408942502C2C432500C2F734 /* ProductListTableViewCell.xib */; };
+		408942522C2C432500C2F734 /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089424F2C2C432500C2F734 /* ProductListTableViewCell.swift */; };
+		408942542C2C45F700C2F734 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408942532C2C45F700C2F734 /* ProductListViewController.swift */; };
+		BFD223D163D077F3C94CCCA7 /* Pods_mobantica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680560DD7D0D838D0C43DE5F /* Pods_mobantica.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186252092C2C6F5D00AAA67E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1862520B2C2C816A00AAA67E /* NSURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLSession.swift; sourceTree = "<group>"; };
+		186252112C2C8CA900AAA67E /* GraphikCompact-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252122C2C8CA900AAA67E /* GraphikCompact-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252132C2C8CA900AAA67E /* GraphikCompact-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Regular-Trial.otf"; sourceTree = "<group>"; };
+		186252142C2C8CA900AAA67E /* GraphikCompact-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252152C2C8CA900AAA67E /* GraphikCompact-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		186252162C2C8CA900AAA67E /* GraphikCompact-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252172C2C8CA900AAA67E /* GraphikCompact-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252182C2C8CA900AAA67E /* GraphikCompact-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Bold-Trial.otf"; sourceTree = "<group>"; };
+		186252192C2C8CA900AAA67E /* GraphikCompact-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Thin-Trial.otf"; sourceTree = "<group>"; };
+		1862521A2C2C8CA900AAA67E /* GraphikCompact-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		1862521B2C2C8CA900AAA67E /* GraphikCompact-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862521C2C2C8CA900AAA67E /* GraphikCompact-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862521D2C2C8CA900AAA67E /* GraphikCompact-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Medium-Trial.otf"; sourceTree = "<group>"; };
+		1862521E2C2C8CA900AAA67E /* GraphikCompact-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Super-Trial.otf"; sourceTree = "<group>"; };
+		1862521F2C2C8CA900AAA67E /* GraphikCompact-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252202C2C8CA900AAA67E /* GraphikCompact-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Light-Trial.otf"; sourceTree = "<group>"; };
+		186252212C2C8CA900AAA67E /* GraphikCompact-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-Black-Trial.otf"; sourceTree = "<group>"; };
+		186252222C2C8CA900AAA67E /* GraphikCompact-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCompact-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252242C2C8CA900AAA67E /* GraphikCondensed-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252252C2C8CA900AAA67E /* GraphikCondensed-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Super-Trial.otf"; sourceTree = "<group>"; };
+		186252262C2C8CA900AAA67E /* GraphikCondensed-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Light-Trial.otf"; sourceTree = "<group>"; };
+		186252272C2C8CA900AAA67E /* GraphikCondensed-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Black-Trial.otf"; sourceTree = "<group>"; };
+		186252282C2C8CA900AAA67E /* GraphikCondensed-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252292C2C8CA900AAA67E /* GraphikCondensed-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Medium-Trial.otf"; sourceTree = "<group>"; };
+		1862522A2C2C8CA900AAA67E /* GraphikCondensed-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862522B2C2C8CA900AAA67E /* GraphikCondensed-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862522C2C2C8CA900AAA67E /* GraphikCondensed-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862522D2C2C8CA900AAA67E /* GraphikCondensed-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862522E2C2C8CA900AAA67E /* GraphikCondensed-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Thin-Trial.otf"; sourceTree = "<group>"; };
+		1862522F2C2C8CA900AAA67E /* GraphikCondensed-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Bold-Trial.otf"; sourceTree = "<group>"; };
+		186252302C2C8CA900AAA67E /* GraphikCondensed-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252312C2C8CA900AAA67E /* GraphikCondensed-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		186252322C2C8CA900AAA67E /* GraphikCondensed-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252332C2C8CA900AAA67E /* GraphikCondensed-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Regular-Trial.otf"; sourceTree = "<group>"; };
+		186252342C2C8CA900AAA67E /* GraphikCondensed-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252352C2C8CA900AAA67E /* GraphikCondensed-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikCondensed-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		186252372C2C8CA900AAA67E /* GraphikXXCondensed-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252382C2C8CA900AAA67E /* GraphikXXCondensed-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Super-Trial.otf"; sourceTree = "<group>"; };
+		186252392C2C8CA900AAA67E /* GraphikXXCondensed-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Regular-Trial.otf"; sourceTree = "<group>"; };
+		1862523A2C2C8CA900AAA67E /* GraphikXXCondensed-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862523B2C2C8CA900AAA67E /* GraphikXXCondensed-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Light-Trial.otf"; sourceTree = "<group>"; };
+		1862523C2C2C8CA900AAA67E /* GraphikXXCondensed-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Black-Trial.otf"; sourceTree = "<group>"; };
+		1862523D2C2C8CA900AAA67E /* GraphikXXCondensed-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Thin-Trial.otf"; sourceTree = "<group>"; };
+		1862523E2C2C8CA900AAA67E /* GraphikXXCondensed-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862523F2C2C8CA900AAA67E /* GraphikXXCondensed-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Bold-Trial.otf"; sourceTree = "<group>"; };
+		186252402C2C8CA900AAA67E /* GraphikXXCondensed-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252412C2C8CA900AAA67E /* GraphikXXCondensed-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252422C2C8CA900AAA67E /* GraphikXXCondensed-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		186252432C2C8CA900AAA67E /* GraphikXXCondensed-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252442C2C8CA900AAA67E /* GraphikXXCondensed-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252452C2C8CA900AAA67E /* GraphikXXCondensed-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		186252462C2C8CA900AAA67E /* GraphikXXCondensed-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-Medium-Trial.otf"; sourceTree = "<group>"; };
+		186252472C2C8CA900AAA67E /* GraphikXXCondensed-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252482C2C8CA900AAA67E /* GraphikXXCondensed-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXCondensed-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862524A2C2C8CA900AAA67E /* GraphikXXXCondensed-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Black-Trial.otf"; sourceTree = "<group>"; };
+		1862524B2C2C8CA900AAA67E /* GraphikXXXCondensed-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862524C2C2C8CA900AAA67E /* GraphikXXXCondensed-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862524D2C2C8CA900AAA67E /* GraphikXXXCondensed-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862524E2C2C8CA900AAA67E /* GraphikXXXCondensed-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Medium-Trial.otf"; sourceTree = "<group>"; };
+		1862524F2C2C8CA900AAA67E /* GraphikXXXCondensed-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Super-Trial.otf"; sourceTree = "<group>"; };
+		186252502C2C8CA900AAA67E /* GraphikXXXCondensed-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252512C2C8CA900AAA67E /* GraphikXXXCondensed-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252522C2C8CA900AAA67E /* GraphikXXXCondensed-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Light-Trial.otf"; sourceTree = "<group>"; };
+		186252532C2C8CA900AAA67E /* GraphikXXXCondensed-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		186252542C2C8CA900AAA67E /* GraphikXXXCondensed-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252552C2C8CA900AAA67E /* GraphikXXXCondensed-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252562C2C8CA900AAA67E /* GraphikXXXCondensed-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252572C2C8CA900AAA67E /* GraphikXXXCondensed-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252582C2C8CA900AAA67E /* GraphikXXXCondensed-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		186252592C2C8CA900AAA67E /* GraphikXXXCondensed-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Thin-Trial.otf"; sourceTree = "<group>"; };
+		1862525A2C2C8CA900AAA67E /* GraphikXXXCondensed-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Bold-Trial.otf"; sourceTree = "<group>"; };
+		1862525B2C2C8CA900AAA67E /* GraphikXXXCondensed-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXCondensed-Regular-Trial.otf"; sourceTree = "<group>"; };
+		1862525D2C2C8CA900AAA67E /* GraphikXCondensed-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862525E2C2C8CA900AAA67E /* GraphikXCondensed-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862525F2C2C8CA900AAA67E /* GraphikXCondensed-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252602C2C8CA900AAA67E /* GraphikXCondensed-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252612C2C8CA900AAA67E /* GraphikXCondensed-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252622C2C8CA900AAA67E /* GraphikXCondensed-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		186252632C2C8CA900AAA67E /* GraphikXCondensed-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Regular-Trial.otf"; sourceTree = "<group>"; };
+		186252642C2C8CA900AAA67E /* GraphikXCondensed-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Medium-Trial.otf"; sourceTree = "<group>"; };
+		186252652C2C8CA900AAA67E /* GraphikXCondensed-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Black-Trial.otf"; sourceTree = "<group>"; };
+		186252662C2C8CA900AAA67E /* GraphikXCondensed-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252672C2C8CA900AAA67E /* GraphikXCondensed-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Thin-Trial.otf"; sourceTree = "<group>"; };
+		186252682C2C8CA900AAA67E /* GraphikXCondensed-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Bold-Trial.otf"; sourceTree = "<group>"; };
+		186252692C2C8CA900AAA67E /* GraphikXCondensed-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Light-Trial.otf"; sourceTree = "<group>"; };
+		1862526A2C2C8CA900AAA67E /* GraphikXCondensed-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862526B2C2C8CA900AAA67E /* GraphikXCondensed-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		1862526C2C2C8CA900AAA67E /* GraphikXCondensed-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862526D2C2C8CA900AAA67E /* GraphikXCondensed-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-Super-Trial.otf"; sourceTree = "<group>"; };
+		1862526E2C2C8CA900AAA67E /* GraphikXCondensed-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXCondensed-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252702C2C8CA900AAA67E /* Graphik-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Regular-Trial.otf"; sourceTree = "<group>"; };
+		186252712C2C8CA900AAA67E /* Graphik-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Medium-Trial.otf"; sourceTree = "<group>"; };
+		186252722C2C8CA900AAA67E /* Graphik-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252732C2C8CA900AAA67E /* Graphik-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Super-Trial.otf"; sourceTree = "<group>"; };
+		186252742C2C8CA900AAA67E /* Graphik-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Light-Trial.otf"; sourceTree = "<group>"; };
+		186252752C2C8CA900AAA67E /* Graphik-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252762C2C8CA900AAA67E /* Graphik-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Black-Trial.otf"; sourceTree = "<group>"; };
+		186252772C2C8CA900AAA67E /* Graphik-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Bold-Trial.otf"; sourceTree = "<group>"; };
+		186252782C2C8CA900AAA67E /* Graphik-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Thin-Trial.otf"; sourceTree = "<group>"; };
+		186252792C2C8CA900AAA67E /* Graphik-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862527A2C2C8CA900AAA67E /* Graphik-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862527B2C2C8CA900AAA67E /* Graphik-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		1862527C2C2C8CA900AAA67E /* Graphik-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862527D2C2C8CA900AAA67E /* Graphik-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862527E2C2C8CA900AAA67E /* Graphik-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862527F2C2C8CA900AAA67E /* Graphik-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		186252802C2C8CA900AAA67E /* Graphik-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252812C2C8CA900AAA67E /* Graphik-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252832C2C8CA900AAA67E /* GraphikWide-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252842C2C8CA900AAA67E /* GraphikWide-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Medium-Trial.otf"; sourceTree = "<group>"; };
+		186252852C2C8CA900AAA67E /* GraphikWide-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Regular-Trial.otf"; sourceTree = "<group>"; };
+		186252862C2C8CA900AAA67E /* GraphikWide-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Black-Trial.otf"; sourceTree = "<group>"; };
+		186252872C2C8CA900AAA67E /* GraphikWide-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252882C2C8CA900AAA67E /* GraphikWide-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		186252892C2C8CA900AAA67E /* GraphikWide-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Light-Trial.otf"; sourceTree = "<group>"; };
+		1862528A2C2C8CA900AAA67E /* GraphikWide-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862528B2C2C8CA900AAA67E /* GraphikWide-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862528C2C2C8CA900AAA67E /* GraphikWide-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		1862528D2C2C8CA900AAA67E /* GraphikWide-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862528E2C2C8CA900AAA67E /* GraphikWide-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862528F2C2C8CA900AAA67E /* GraphikWide-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Super-Trial.otf"; sourceTree = "<group>"; };
+		186252902C2C8CA900AAA67E /* GraphikWide-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Thin-Trial.otf"; sourceTree = "<group>"; };
+		186252912C2C8CA900AAA67E /* GraphikWide-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252922C2C8CA900AAA67E /* GraphikWide-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-Bold-Trial.otf"; sourceTree = "<group>"; };
+		186252932C2C8CA900AAA67E /* GraphikWide-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252942C2C8CA900AAA67E /* GraphikWide-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikWide-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252962C2C8CA900AAA67E /* GraphikXXXXCondensed-LightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-LightItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252972C2C8CA900AAA67E /* GraphikXXXXCondensed-SuperItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-SuperItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252982C2C8CA900AAA67E /* GraphikXXXXCondensed-ThinItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-ThinItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252992C2C8CA900AAA67E /* GraphikXXXXCondensed-RegularItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-RegularItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862529A2C2C8CA900AAA67E /* GraphikXXXXCondensed-Extralight-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Extralight-Trial.otf"; sourceTree = "<group>"; };
+		1862529B2C2C8CA900AAA67E /* GraphikXXXXCondensed-BoldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-BoldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862529C2C2C8CA900AAA67E /* GraphikXXXXCondensed-SemiboldItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-SemiboldItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862529D2C2C8CA900AAA67E /* GraphikXXXXCondensed-ExtralightItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-ExtralightItalic-Trial.otf"; sourceTree = "<group>"; };
+		1862529E2C2C8CA900AAA67E /* GraphikXXXXCondensed-Black-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Black-Trial.otf"; sourceTree = "<group>"; };
+		1862529F2C2C8CA900AAA67E /* GraphikXXXXCondensed-MediumItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-MediumItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252A02C2C8CA900AAA67E /* GraphikXXXXCondensed-Medium-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Medium-Trial.otf"; sourceTree = "<group>"; };
+		186252A12C2C8CA900AAA67E /* GraphikXXXXCondensed-BlackItalic-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-BlackItalic-Trial.otf"; sourceTree = "<group>"; };
+		186252A22C2C8CA900AAA67E /* GraphikXXXXCondensed-Super-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Super-Trial.otf"; sourceTree = "<group>"; };
+		186252A32C2C8CA900AAA67E /* GraphikXXXXCondensed-Light-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Light-Trial.otf"; sourceTree = "<group>"; };
+		186252A42C2C8CA900AAA67E /* GraphikXXXXCondensed-Regular-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Regular-Trial.otf"; sourceTree = "<group>"; };
+		186252A52C2C8CA900AAA67E /* GraphikXXXXCondensed-Semibold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Semibold-Trial.otf"; sourceTree = "<group>"; };
+		186252A62C2C8CA900AAA67E /* GraphikXXXXCondensed-Bold-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Bold-Trial.otf"; sourceTree = "<group>"; };
+		186252A72C2C8CA900AAA67E /* GraphikXXXXCondensed-Thin-Trial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikXXXXCondensed-Thin-Trial.otf"; sourceTree = "<group>"; };
+		186253382C2C8F9100AAA67E /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		4031E5FE2C2D4CDD0038F1CE /* reviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewTableViewCell.swift; sourceTree = "<group>"; };
+		4031E5FF2C2D4CDD0038F1CE /* reviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = reviewTableViewCell.xib; sourceTree = "<group>"; };
+		4031E6022C2D505C0038F1CE /* reviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewViewController.swift; sourceTree = "<group>"; };
+		4089422F2C2C144C00C2F734 /* mobantica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobantica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408942322C2C144C00C2F734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		408942342C2C144C00C2F734 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		408942362C2C144C00C2F734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		408942392C2C144C00C2F734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4089423C2C2C144C00C2F734 /* mobantica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobantica.xcdatamodel; sourceTree = "<group>"; };
+		4089423E2C2C144D00C2F734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		408942412C2C144D00C2F734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		408942432C2C144D00C2F734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4089424A2C2C248800C2F734 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4089424D2C2C36E900C2F734 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4089424F2C2C432500C2F734 /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		408942502C2C432500C2F734 /* ProductListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListTableViewCell.xib; sourceTree = "<group>"; };
+		408942532C2C45F700C2F734 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		535A14EF388E1B4056388D0E /* Pods-mobantica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobantica.release.xcconfig"; path = "Target Support Files/Pods-mobantica/Pods-mobantica.release.xcconfig"; sourceTree = "<group>"; };
+		680560DD7D0D838D0C43DE5F /* Pods_mobantica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobantica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5E8562C1C65FC55C516969 /* Pods-mobantica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobantica.debug.xcconfig"; path = "Target Support Files/Pods-mobantica/Pods-mobantica.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4089422C2C2C144C00C2F734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD223D163D077F3C94CCCA7 /* Pods_mobantica.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186252082C2C6F4300AAA67E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				186252092C2C6F5D00AAA67E /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1862520D2C2C8BE000AAA67E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4089424F2C2C432500C2F734 /* ProductListTableViewCell.swift */,
+				408942502C2C432500C2F734 /* ProductListTableViewCell.xib */,
+				4031E5FE2C2D4CDD0038F1CE /* reviewTableViewCell.swift */,
+				4031E5FF2C2D4CDD0038F1CE /* reviewTableViewCell.xib */,
+				408942382C2C144C00C2F734 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1862520E2C2C8C7600AAA67E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1862520F2C2C8CA900AAA67E /* Graphik_Collection */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1862520F2C2C8CA900AAA67E /* Graphik_Collection */ = {
+			isa = PBXGroup;
+			children = (
+				186252102C2C8CA900AAA67E /* Graphik Compact Family */,
+				186252232C2C8CA900AAA67E /* Graphik Condensed Family */,
+				186252362C2C8CA900AAA67E /* Graphik XX Condensed Family */,
+				186252492C2C8CA900AAA67E /* Graphik XXX Condensed Family */,
+				1862525C2C2C8CA900AAA67E /* Graphik X Condensed Family */,
+				1862526F2C2C8CA900AAA67E /* Graphik Family */,
+				186252822C2C8CA900AAA67E /* Graphik Wide Family */,
+				186252952C2C8CA900AAA67E /* Graphik XXXX Condensed Family */,
+			);
+			path = Graphik_Collection;
+			sourceTree = "<group>";
+		};
+		186252102C2C8CA900AAA67E /* Graphik Compact Family */ = {
+			isa = PBXGroup;
+			children = (
+				186252112C2C8CA900AAA67E /* GraphikCompact-SuperItalic-Trial.otf */,
+				186252122C2C8CA900AAA67E /* GraphikCompact-LightItalic-Trial.otf */,
+				186252132C2C8CA900AAA67E /* GraphikCompact-Regular-Trial.otf */,
+				186252142C2C8CA900AAA67E /* GraphikCompact-ThinItalic-Trial.otf */,
+				186252152C2C8CA900AAA67E /* GraphikCompact-Extralight-Trial.otf */,
+				186252162C2C8CA900AAA67E /* GraphikCompact-BoldItalic-Trial.otf */,
+				186252172C2C8CA900AAA67E /* GraphikCompact-ExtralightItalic-Trial.otf */,
+				186252182C2C8CA900AAA67E /* GraphikCompact-Bold-Trial.otf */,
+				186252192C2C8CA900AAA67E /* GraphikCompact-Thin-Trial.otf */,
+				1862521A2C2C8CA900AAA67E /* GraphikCompact-Semibold-Trial.otf */,
+				1862521B2C2C8CA900AAA67E /* GraphikCompact-RegularItalic-Trial.otf */,
+				1862521C2C2C8CA900AAA67E /* GraphikCompact-MediumItalic-Trial.otf */,
+				1862521D2C2C8CA900AAA67E /* GraphikCompact-Medium-Trial.otf */,
+				1862521E2C2C8CA900AAA67E /* GraphikCompact-Super-Trial.otf */,
+				1862521F2C2C8CA900AAA67E /* GraphikCompact-BlackItalic-Trial.otf */,
+				186252202C2C8CA900AAA67E /* GraphikCompact-Light-Trial.otf */,
+				186252212C2C8CA900AAA67E /* GraphikCompact-Black-Trial.otf */,
+				186252222C2C8CA900AAA67E /* GraphikCompact-SemiboldItalic-Trial.otf */,
+			);
+			path = "Graphik Compact Family";
+			sourceTree = "<group>";
+		};
+		186252232C2C8CA900AAA67E /* Graphik Condensed Family */ = {
+			isa = PBXGroup;
+			children = (
+				186252242C2C8CA900AAA67E /* GraphikCondensed-ExtralightItalic-Trial.otf */,
+				186252252C2C8CA900AAA67E /* GraphikCondensed-Super-Trial.otf */,
+				186252262C2C8CA900AAA67E /* GraphikCondensed-Light-Trial.otf */,
+				186252272C2C8CA900AAA67E /* GraphikCondensed-Black-Trial.otf */,
+				186252282C2C8CA900AAA67E /* GraphikCondensed-SuperItalic-Trial.otf */,
+				186252292C2C8CA900AAA67E /* GraphikCondensed-Medium-Trial.otf */,
+				1862522A2C2C8CA900AAA67E /* GraphikCondensed-LightItalic-Trial.otf */,
+				1862522B2C2C8CA900AAA67E /* GraphikCondensed-SemiboldItalic-Trial.otf */,
+				1862522C2C2C8CA900AAA67E /* GraphikCondensed-MediumItalic-Trial.otf */,
+				1862522D2C2C8CA900AAA67E /* GraphikCondensed-RegularItalic-Trial.otf */,
+				1862522E2C2C8CA900AAA67E /* GraphikCondensed-Thin-Trial.otf */,
+				1862522F2C2C8CA900AAA67E /* GraphikCondensed-Bold-Trial.otf */,
+				186252302C2C8CA900AAA67E /* GraphikCondensed-BoldItalic-Trial.otf */,
+				186252312C2C8CA900AAA67E /* GraphikCondensed-Extralight-Trial.otf */,
+				186252322C2C8CA900AAA67E /* GraphikCondensed-BlackItalic-Trial.otf */,
+				186252332C2C8CA900AAA67E /* GraphikCondensed-Regular-Trial.otf */,
+				186252342C2C8CA900AAA67E /* GraphikCondensed-ThinItalic-Trial.otf */,
+				186252352C2C8CA900AAA67E /* GraphikCondensed-Semibold-Trial.otf */,
+			);
+			path = "Graphik Condensed Family";
+			sourceTree = "<group>";
+		};
+		186252362C2C8CA900AAA67E /* Graphik XX Condensed Family */ = {
+			isa = PBXGroup;
+			children = (
+				186252372C2C8CA900AAA67E /* GraphikXXCondensed-MediumItalic-Trial.otf */,
+				186252382C2C8CA900AAA67E /* GraphikXXCondensed-Super-Trial.otf */,
+				186252392C2C8CA900AAA67E /* GraphikXXCondensed-Regular-Trial.otf */,
+				1862523A2C2C8CA900AAA67E /* GraphikXXCondensed-SemiboldItalic-Trial.otf */,
+				1862523B2C2C8CA900AAA67E /* GraphikXXCondensed-Light-Trial.otf */,
+				1862523C2C2C8CA900AAA67E /* GraphikXXCondensed-Black-Trial.otf */,
+				1862523D2C2C8CA900AAA67E /* GraphikXXCondensed-Thin-Trial.otf */,
+				1862523E2C2C8CA900AAA67E /* GraphikXXCondensed-RegularItalic-Trial.otf */,
+				1862523F2C2C8CA900AAA67E /* GraphikXXCondensed-Bold-Trial.otf */,
+				186252402C2C8CA900AAA67E /* GraphikXXCondensed-BlackItalic-Trial.otf */,
+				186252412C2C8CA900AAA67E /* GraphikXXCondensed-ExtralightItalic-Trial.otf */,
+				186252422C2C8CA900AAA67E /* GraphikXXCondensed-Semibold-Trial.otf */,
+				186252432C2C8CA900AAA67E /* GraphikXXCondensed-ThinItalic-Trial.otf */,
+				186252442C2C8CA900AAA67E /* GraphikXXCondensed-BoldItalic-Trial.otf */,
+				186252452C2C8CA900AAA67E /* GraphikXXCondensed-Extralight-Trial.otf */,
+				186252462C2C8CA900AAA67E /* GraphikXXCondensed-Medium-Trial.otf */,
+				186252472C2C8CA900AAA67E /* GraphikXXCondensed-SuperItalic-Trial.otf */,
+				186252482C2C8CA900AAA67E /* GraphikXXCondensed-LightItalic-Trial.otf */,
+			);
+			path = "Graphik XX Condensed Family";
+			sourceTree = "<group>";
+		};
+		186252492C2C8CA900AAA67E /* Graphik XXX Condensed Family */ = {
+			isa = PBXGroup;
+			children = (
+				1862524A2C2C8CA900AAA67E /* GraphikXXXCondensed-Black-Trial.otf */,
+				1862524B2C2C8CA900AAA67E /* GraphikXXXCondensed-BlackItalic-Trial.otf */,
+				1862524C2C2C8CA900AAA67E /* GraphikXXXCondensed-SemiboldItalic-Trial.otf */,
+				1862524D2C2C8CA900AAA67E /* GraphikXXXCondensed-RegularItalic-Trial.otf */,
+				1862524E2C2C8CA900AAA67E /* GraphikXXXCondensed-Medium-Trial.otf */,
+				1862524F2C2C8CA900AAA67E /* GraphikXXXCondensed-Super-Trial.otf */,
+				186252502C2C8CA900AAA67E /* GraphikXXXCondensed-ThinItalic-Trial.otf */,
+				186252512C2C8CA900AAA67E /* GraphikXXXCondensed-ExtralightItalic-Trial.otf */,
+				186252522C2C8CA900AAA67E /* GraphikXXXCondensed-Light-Trial.otf */,
+				186252532C2C8CA900AAA67E /* GraphikXXXCondensed-Extralight-Trial.otf */,
+				186252542C2C8CA900AAA67E /* GraphikXXXCondensed-BoldItalic-Trial.otf */,
+				186252552C2C8CA900AAA67E /* GraphikXXXCondensed-MediumItalic-Trial.otf */,
+				186252562C2C8CA900AAA67E /* GraphikXXXCondensed-LightItalic-Trial.otf */,
+				186252572C2C8CA900AAA67E /* GraphikXXXCondensed-SuperItalic-Trial.otf */,
+				186252582C2C8CA900AAA67E /* GraphikXXXCondensed-Semibold-Trial.otf */,
+				186252592C2C8CA900AAA67E /* GraphikXXXCondensed-Thin-Trial.otf */,
+				1862525A2C2C8CA900AAA67E /* GraphikXXXCondensed-Bold-Trial.otf */,
+				1862525B2C2C8CA900AAA67E /* GraphikXXXCondensed-Regular-Trial.otf */,
+			);
+			path = "Graphik XXX Condensed Family";
+			sourceTree = "<group>";
+		};
+		1862525C2C2C8CA900AAA67E /* Graphik X Condensed Family */ = {
+			isa = PBXGroup;
+			children = (
+				1862525D2C2C8CA900AAA67E /* GraphikXCondensed-SuperItalic-Trial.otf */,
+				1862525E2C2C8CA900AAA67E /* GraphikXCondensed-SemiboldItalic-Trial.otf */,
+				1862525F2C2C8CA900AAA67E /* GraphikXCondensed-LightItalic-Trial.otf */,
+				186252602C2C8CA900AAA67E /* GraphikXCondensed-MediumItalic-Trial.otf */,
+				186252612C2C8CA900AAA67E /* GraphikXCondensed-ExtralightItalic-Trial.otf */,
+				186252622C2C8CA900AAA67E /* GraphikXCondensed-Semibold-Trial.otf */,
+				186252632C2C8CA900AAA67E /* GraphikXCondensed-Regular-Trial.otf */,
+				186252642C2C8CA900AAA67E /* GraphikXCondensed-Medium-Trial.otf */,
+				186252652C2C8CA900AAA67E /* GraphikXCondensed-Black-Trial.otf */,
+				186252662C2C8CA900AAA67E /* GraphikXCondensed-BlackItalic-Trial.otf */,
+				186252672C2C8CA900AAA67E /* GraphikXCondensed-Thin-Trial.otf */,
+				186252682C2C8CA900AAA67E /* GraphikXCondensed-Bold-Trial.otf */,
+				186252692C2C8CA900AAA67E /* GraphikXCondensed-Light-Trial.otf */,
+				1862526A2C2C8CA900AAA67E /* GraphikXCondensed-BoldItalic-Trial.otf */,
+				1862526B2C2C8CA900AAA67E /* GraphikXCondensed-Extralight-Trial.otf */,
+				1862526C2C2C8CA900AAA67E /* GraphikXCondensed-RegularItalic-Trial.otf */,
+				1862526D2C2C8CA900AAA67E /* GraphikXCondensed-Super-Trial.otf */,
+				1862526E2C2C8CA900AAA67E /* GraphikXCondensed-ThinItalic-Trial.otf */,
+			);
+			path = "Graphik X Condensed Family";
+			sourceTree = "<group>";
+		};
+		1862526F2C2C8CA900AAA67E /* Graphik Family */ = {
+			isa = PBXGroup;
+			children = (
+				186252702C2C8CA900AAA67E /* Graphik-Regular-Trial.otf */,
+				186252712C2C8CA900AAA67E /* Graphik-Medium-Trial.otf */,
+				186252722C2C8CA900AAA67E /* Graphik-BlackItalic-Trial.otf */,
+				186252732C2C8CA900AAA67E /* Graphik-Super-Trial.otf */,
+				186252742C2C8CA900AAA67E /* Graphik-Light-Trial.otf */,
+				186252752C2C8CA900AAA67E /* Graphik-ExtralightItalic-Trial.otf */,
+				186252762C2C8CA900AAA67E /* Graphik-Black-Trial.otf */,
+				186252772C2C8CA900AAA67E /* Graphik-Bold-Trial.otf */,
+				186252782C2C8CA900AAA67E /* Graphik-Thin-Trial.otf */,
+				186252792C2C8CA900AAA67E /* Graphik-ThinItalic-Trial.otf */,
+				1862527A2C2C8CA900AAA67E /* Graphik-RegularItalic-Trial.otf */,
+				1862527B2C2C8CA900AAA67E /* Graphik-Semibold-Trial.otf */,
+				1862527C2C2C8CA900AAA67E /* Graphik-SuperItalic-Trial.otf */,
+				1862527D2C2C8CA900AAA67E /* Graphik-LightItalic-Trial.otf */,
+				1862527E2C2C8CA900AAA67E /* Graphik-BoldItalic-Trial.otf */,
+				1862527F2C2C8CA900AAA67E /* Graphik-Extralight-Trial.otf */,
+				186252802C2C8CA900AAA67E /* Graphik-SemiboldItalic-Trial.otf */,
+				186252812C2C8CA900AAA67E /* Graphik-MediumItalic-Trial.otf */,
+			);
+			path = "Graphik Family";
+			sourceTree = "<group>";
+		};
+		186252822C2C8CA900AAA67E /* Graphik Wide Family */ = {
+			isa = PBXGroup;
+			children = (
+				186252832C2C8CA900AAA67E /* GraphikWide-SemiboldItalic-Trial.otf */,
+				186252842C2C8CA900AAA67E /* GraphikWide-Medium-Trial.otf */,
+				186252852C2C8CA900AAA67E /* GraphikWide-Regular-Trial.otf */,
+				186252862C2C8CA900AAA67E /* GraphikWide-Black-Trial.otf */,
+				186252872C2C8CA900AAA67E /* GraphikWide-ThinItalic-Trial.otf */,
+				186252882C2C8CA900AAA67E /* GraphikWide-Semibold-Trial.otf */,
+				186252892C2C8CA900AAA67E /* GraphikWide-Light-Trial.otf */,
+				1862528A2C2C8CA900AAA67E /* GraphikWide-BlackItalic-Trial.otf */,
+				1862528B2C2C8CA900AAA67E /* GraphikWide-RegularItalic-Trial.otf */,
+				1862528C2C2C8CA900AAA67E /* GraphikWide-Extralight-Trial.otf */,
+				1862528D2C2C8CA900AAA67E /* GraphikWide-ExtralightItalic-Trial.otf */,
+				1862528E2C2C8CA900AAA67E /* GraphikWide-BoldItalic-Trial.otf */,
+				1862528F2C2C8CA900AAA67E /* GraphikWide-Super-Trial.otf */,
+				186252902C2C8CA900AAA67E /* GraphikWide-Thin-Trial.otf */,
+				186252912C2C8CA900AAA67E /* GraphikWide-MediumItalic-Trial.otf */,
+				186252922C2C8CA900AAA67E /* GraphikWide-Bold-Trial.otf */,
+				186252932C2C8CA900AAA67E /* GraphikWide-SuperItalic-Trial.otf */,
+				186252942C2C8CA900AAA67E /* GraphikWide-LightItalic-Trial.otf */,
+			);
+			path = "Graphik Wide Family";
+			sourceTree = "<group>";
+		};
+		186252952C2C8CA900AAA67E /* Graphik XXXX Condensed Family */ = {
+			isa = PBXGroup;
+			children = (
+				186252962C2C8CA900AAA67E /* GraphikXXXXCondensed-LightItalic-Trial.otf */,
+				186252972C2C8CA900AAA67E /* GraphikXXXXCondensed-SuperItalic-Trial.otf */,
+				186252982C2C8CA900AAA67E /* GraphikXXXXCondensed-ThinItalic-Trial.otf */,
+				186252992C2C8CA900AAA67E /* GraphikXXXXCondensed-RegularItalic-Trial.otf */,
+				1862529A2C2C8CA900AAA67E /* GraphikXXXXCondensed-Extralight-Trial.otf */,
+				1862529B2C2C8CA900AAA67E /* GraphikXXXXCondensed-BoldItalic-Trial.otf */,
+				1862529C2C2C8CA900AAA67E /* GraphikXXXXCondensed-SemiboldItalic-Trial.otf */,
+				1862529D2C2C8CA900AAA67E /* GraphikXXXXCondensed-ExtralightItalic-Trial.otf */,
+				1862529E2C2C8CA900AAA67E /* GraphikXXXXCondensed-Black-Trial.otf */,
+				1862529F2C2C8CA900AAA67E /* GraphikXXXXCondensed-MediumItalic-Trial.otf */,
+				186252A02C2C8CA900AAA67E /* GraphikXXXXCondensed-Medium-Trial.otf */,
+				186252A12C2C8CA900AAA67E /* GraphikXXXXCondensed-BlackItalic-Trial.otf */,
+				186252A22C2C8CA900AAA67E /* GraphikXXXXCondensed-Super-Trial.otf */,
+				186252A32C2C8CA900AAA67E /* GraphikXXXXCondensed-Light-Trial.otf */,
+				186252A42C2C8CA900AAA67E /* GraphikXXXXCondensed-Regular-Trial.otf */,
+				186252A52C2C8CA900AAA67E /* GraphikXXXXCondensed-Semibold-Trial.otf */,
+				186252A62C2C8CA900AAA67E /* GraphikXXXXCondensed-Bold-Trial.otf */,
+				186252A72C2C8CA900AAA67E /* GraphikXXXXCondensed-Thin-Trial.otf */,
+			);
+			path = "Graphik XXXX Condensed Family";
+			sourceTree = "<group>";
+		};
+		1C972835CA2A523D8410FF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E8562C1C65FC55C516969 /* Pods-mobantica.debug.xcconfig */,
+				535A14EF388E1B4056388D0E /* Pods-mobantica.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		408942262C2C144B00C2F734 = {
+			isa = PBXGroup;
+			children = (
+				408942312C2C144C00C2F734 /* mobantica */,
+				408942302C2C144C00C2F734 /* Products */,
+				1C972835CA2A523D8410FF51 /* Pods */,
+				57CA130FCF4962FDA80A2367 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		408942302C2C144C00C2F734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4089422F2C2C144C00C2F734 /* mobantica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408942312C2C144C00C2F734 /* mobantica */ = {
+			isa = PBXGroup;
+			children = (
+				186252082C2C6F4300AAA67E /* Model */,
+				1862520D2C2C8BE000AAA67E /* View */,
+				408942492C2C245000C2F734 /* Controller */,
+				4089424C2C2C36DB00C2F734 /* Common */,
+				408942322C2C144C00C2F734 /* AppDelegate.swift */,
+				408942342C2C144C00C2F734 /* SceneDelegate.swift */,
+				1862520E2C2C8C7600AAA67E /* Font */,
+				4089423E2C2C144D00C2F734 /* Assets.xcassets */,
+				408942402C2C144D00C2F734 /* LaunchScreen.storyboard */,
+				408942432C2C144D00C2F734 /* Info.plist */,
+				4089423B2C2C144C00C2F734 /* mobantica.xcdatamodeld */,
+			);
+			path = mobantica;
+			sourceTree = "<group>";
+		};
+		408942492C2C245000C2F734 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4089424A2C2C248800C2F734 /* HomeViewController.swift */,
+				408942532C2C45F700C2F734 /* ProductListViewController.swift */,
+				186253382C2C8F9100AAA67E /* ProductDetailViewController.swift */,
+				4031E6022C2D505C0038F1CE /* reviewViewController.swift */,
+				408942362C2C144C00C2F734 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4089424C2C2C36DB00C2F734 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4089424D2C2C36E900C2F734 /* Extension.swift */,
+				1862520B2C2C816A00AAA67E /* NSURLSession.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		57CA130FCF4962FDA80A2367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680560DD7D0D838D0C43DE5F /* Pods_mobantica.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4089422E2C2C144C00C2F734 /* mobantica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408942462C2C144D00C2F734 /* Build configuration list for PBXNativeTarget "mobantica" */;
+			buildPhases = (
+				C5BA57FDFD4BFC6CAC0C5386 /* [CP] Check Pods Manifest.lock */,
+				4089422B2C2C144C00C2F734 /* Sources */,
+				4089422C2C2C144C00C2F734 /* Frameworks */,
+				4089422D2C2C144C00C2F734 /* Resources */,
+				024F50858C11231233FAEC13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobantica;
+			productName = mobantica;
+			productReference = 4089422F2C2C144C00C2F734 /* mobantica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408942272C2C144B00C2F734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4089422E2C2C144C00C2F734 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4089422A2C2C144B00C2F734 /* Build configuration list for PBXProject "mobantica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408942262C2C144B00C2F734;
+			productRefGroup = 408942302C2C144C00C2F734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4089422E2C2C144C00C2F734 /* mobantica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4089422D2C2C144C00C2F734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186253182C2C8CAA00AAA67E /* GraphikWide-ThinItalic-Trial.otf in Resources */,
+				186252E62C2C8CAA00AAA67E /* GraphikXXXCondensed-Light-Trial.otf in Resources */,
+				186252FC2C2C8CAA00AAA67E /* GraphikXCondensed-Light-Trial.otf in Resources */,
+				186252C92C2C8CAA00AAA67E /* GraphikCondensed-Regular-Trial.otf in Resources */,
+				186253262C2C8CAA00AAA67E /* GraphikXXXXCondensed-LightItalic-Trial.otf in Resources */,
+				186252C02C2C8CAA00AAA67E /* GraphikCondensed-LightItalic-Trial.otf in Resources */,
+				186252BA2C2C8CAA00AAA67E /* GraphikCondensed-ExtralightItalic-Trial.otf in Resources */,
+				186253142C2C8CAA00AAA67E /* GraphikWide-SemiboldItalic-Trial.otf in Resources */,
+				186253372C2C8CAA00AAA67E /* GraphikXXXXCondensed-Thin-Trial.otf in Resources */,
+				186252CC2C2C8CAA00AAA67E /* GraphikXXCondensed-MediumItalic-Trial.otf in Resources */,
+				1862531B2C2C8CAA00AAA67E /* GraphikWide-BlackItalic-Trial.otf in Resources */,
+				186252C52C2C8CAA00AAA67E /* GraphikCondensed-Bold-Trial.otf in Resources */,
+				186252FB2C2C8CAA00AAA67E /* GraphikXCondensed-Bold-Trial.otf in Resources */,
+				1862530B2C2C8CAA00AAA67E /* Graphik-ThinItalic-Trial.otf in Resources */,
+				186252AF2C2C8CAA00AAA67E /* GraphikCompact-Bold-Trial.otf in Resources */,
+				186252E52C2C8CAA00AAA67E /* GraphikXXXCondensed-ExtralightItalic-Trial.otf in Resources */,
+				186252D82C2C8CAA00AAA67E /* GraphikXXCondensed-ThinItalic-Trial.otf in Resources */,
+				186252F12C2C8CAA00AAA67E /* GraphikXCondensed-SemiboldItalic-Trial.otf in Resources */,
+				186253032C2C8CAA00AAA67E /* Graphik-Medium-Trial.otf in Resources */,
+				186252F92C2C8CAA00AAA67E /* GraphikXCondensed-BlackItalic-Trial.otf in Resources */,
+				186253242C2C8CAA00AAA67E /* GraphikWide-SuperItalic-Trial.otf in Resources */,
+				186252EA2C2C8CAA00AAA67E /* GraphikXXXCondensed-LightItalic-Trial.otf in Resources */,
+				186253222C2C8CAA00AAA67E /* GraphikWide-MediumItalic-Trial.otf in Resources */,
+				186252D72C2C8CAA00AAA67E /* GraphikXXCondensed-Semibold-Trial.otf in Resources */,
+				186253012C2C8CAA00AAA67E /* GraphikXCondensed-ThinItalic-Trial.otf in Resources */,
+				186252C62C2C8CAA00AAA67E /* GraphikCondensed-BoldItalic-Trial.otf in Resources */,
+				1862531F2C2C8CAA00AAA67E /* GraphikWide-BoldItalic-Trial.otf in Resources */,
+				4031E6012C2D4CDD0038F1CE /* reviewTableViewCell.xib in Resources */,
+				186253202C2C8CAA00AAA67E /* GraphikWide-Super-Trial.otf in Resources */,
+				186252F32C2C8CAA00AAA67E /* GraphikXCondensed-MediumItalic-Trial.otf in Resources */,
+				186252D12C2C8CAA00AAA67E /* GraphikXXCondensed-Black-Trial.otf in Resources */,
+				186252E42C2C8CAA00AAA67E /* GraphikXXXCondensed-ThinItalic-Trial.otf in Resources */,
+				186252BB2C2C8CAA00AAA67E /* GraphikCondensed-Super-Trial.otf in Resources */,
+				186252D42C2C8CAA00AAA67E /* GraphikXXCondensed-Bold-Trial.otf in Resources */,
+				186253132C2C8CAA00AAA67E /* Graphik-MediumItalic-Trial.otf in Resources */,
+				1862530A2C2C8CAA00AAA67E /* Graphik-Thin-Trial.otf in Resources */,
+				186253332C2C8CAA00AAA67E /* GraphikXXXXCondensed-Light-Trial.otf in Resources */,
+				186253282C2C8CAA00AAA67E /* GraphikXXXXCondensed-ThinItalic-Trial.otf in Resources */,
+				186253342C2C8CAA00AAA67E /* GraphikXXXXCondensed-Regular-Trial.otf in Resources */,
+				186252D02C2C8CAA00AAA67E /* GraphikXXCondensed-Light-Trial.otf in Resources */,
+				186253172C2C8CAA00AAA67E /* GraphikWide-Black-Trial.otf in Resources */,
+				186252A82C2C8CAA00AAA67E /* GraphikCompact-SuperItalic-Trial.otf in Resources */,
+				1862532B2C2C8CAA00AAA67E /* GraphikXXXXCondensed-BoldItalic-Trial.otf in Resources */,
+				186252B02C2C8CAA00AAA67E /* GraphikCompact-Thin-Trial.otf in Resources */,
+				186252C12C2C8CAA00AAA67E /* GraphikCondensed-SemiboldItalic-Trial.otf in Resources */,
+				186253112C2C8CAA00AAA67E /* Graphik-Extralight-Trial.otf in Resources */,
+				186252EB2C2C8CAA00AAA67E /* GraphikXXXCondensed-SuperItalic-Trial.otf in Resources */,
+				186252AC2C2C8CAA00AAA67E /* GraphikCompact-Extralight-Trial.otf in Resources */,
+				186252E12C2C8CAA00AAA67E /* GraphikXXXCondensed-RegularItalic-Trial.otf in Resources */,
+				186252B72C2C8CAA00AAA67E /* GraphikCompact-Light-Trial.otf in Resources */,
+				186253072C2C8CAA00AAA67E /* Graphik-ExtralightItalic-Trial.otf in Resources */,
+				186252B82C2C8CAA00AAA67E /* GraphikCompact-Black-Trial.otf in Resources */,
+				186252BE2C2C8CAA00AAA67E /* GraphikCondensed-SuperItalic-Trial.otf in Resources */,
+				186252B12C2C8CAA00AAA67E /* GraphikCompact-Semibold-Trial.otf in Resources */,
+				186252DE2C2C8CAA00AAA67E /* GraphikXXXCondensed-Black-Trial.otf in Resources */,
+				186252B42C2C8CAA00AAA67E /* GraphikCompact-Medium-Trial.otf in Resources */,
+				186252DD2C2C8CAA00AAA67E /* GraphikXXCondensed-LightItalic-Trial.otf in Resources */,
+				186252FF2C2C8CAA00AAA67E /* GraphikXCondensed-RegularItalic-Trial.otf in Resources */,
+				186252FA2C2C8CAA00AAA67E /* GraphikXCondensed-Thin-Trial.otf in Resources */,
+				186253292C2C8CAA00AAA67E /* GraphikXXXXCondensed-RegularItalic-Trial.otf in Resources */,
+				1862530D2C2C8CAA00AAA67E /* Graphik-Semibold-Trial.otf in Resources */,
+				186252CB2C2C8CAA00AAA67E /* GraphikCondensed-Semibold-Trial.otf in Resources */,
+				186253362C2C8CAA00AAA67E /* GraphikXXXXCondensed-Bold-Trial.otf in Resources */,
+				1862532A2C2C8CAA00AAA67E /* GraphikXXXXCondensed-Extralight-Trial.otf in Resources */,
+				186252D22C2C8CAA00AAA67E /* GraphikXXCondensed-Thin-Trial.otf in Resources */,
+				186252C72C2C8CAA00AAA67E /* GraphikCondensed-Extralight-Trial.otf in Resources */,
+				186253232C2C8CAA00AAA67E /* GraphikWide-Bold-Trial.otf in Resources */,
+				186252AD2C2C8CAA00AAA67E /* GraphikCompact-BoldItalic-Trial.otf in Resources */,
+				186253102C2C8CAA00AAA67E /* Graphik-BoldItalic-Trial.otf in Resources */,
+				186252B32C2C8CAA00AAA67E /* GraphikCompact-MediumItalic-Trial.otf in Resources */,
+				186252D32C2C8CAA00AAA67E /* GraphikXXCondensed-RegularItalic-Trial.otf in Resources */,
+				186252E72C2C8CAA00AAA67E /* GraphikXXXCondensed-Extralight-Trial.otf in Resources */,
+				1862532D2C2C8CAA00AAA67E /* GraphikXXXXCondensed-ExtralightItalic-Trial.otf in Resources */,
+				186252E22C2C8CAA00AAA67E /* GraphikXXXCondensed-Medium-Trial.otf in Resources */,
+				186252E32C2C8CAA00AAA67E /* GraphikXXXCondensed-Super-Trial.otf in Resources */,
+				186252BD2C2C8CAA00AAA67E /* GraphikCondensed-Black-Trial.otf in Resources */,
+				186252E82C2C8CAA00AAA67E /* GraphikXXXCondensed-BoldItalic-Trial.otf in Resources */,
+				4089423F2C2C144D00C2F734 /* Assets.xcassets in Resources */,
+				186253042C2C8CAA00AAA67E /* Graphik-BlackItalic-Trial.otf in Resources */,
+				186252CD2C2C8CAA00AAA67E /* GraphikXXCondensed-Super-Trial.otf in Resources */,
+				186253162C2C8CAA00AAA67E /* GraphikWide-Regular-Trial.otf in Resources */,
+				186252DA2C2C8CAA00AAA67E /* GraphikXXCondensed-Extralight-Trial.otf in Resources */,
+				186252EE2C2C8CAA00AAA67E /* GraphikXXXCondensed-Bold-Trial.otf in Resources */,
+				186252F62C2C8CAA00AAA67E /* GraphikXCondensed-Regular-Trial.otf in Resources */,
+				186252EF2C2C8CAA00AAA67E /* GraphikXXXCondensed-Regular-Trial.otf in Resources */,
+				186253002C2C8CAA00AAA67E /* GraphikXCondensed-Super-Trial.otf in Resources */,
+				186253122C2C8CAA00AAA67E /* Graphik-SemiboldItalic-Trial.otf in Resources */,
+				1862530E2C2C8CAA00AAA67E /* Graphik-SuperItalic-Trial.otf in Resources */,
+				408942512C2C432500C2F734 /* ProductListTableViewCell.xib in Resources */,
+				1862531A2C2C8CAA00AAA67E /* GraphikWide-Light-Trial.otf in Resources */,
+				186252B62C2C8CAA00AAA67E /* GraphikCompact-BlackItalic-Trial.otf in Resources */,
+				1862532E2C2C8CAA00AAA67E /* GraphikXXXXCondensed-Black-Trial.otf in Resources */,
+				186253212C2C8CAA00AAA67E /* GraphikWide-Thin-Trial.otf in Resources */,
+				186252DB2C2C8CAA00AAA67E /* GraphikXXCondensed-Medium-Trial.otf in Resources */,
+				186253152C2C8CAA00AAA67E /* GraphikWide-Medium-Trial.otf in Resources */,
+				186253322C2C8CAA00AAA67E /* GraphikXXXXCondensed-Super-Trial.otf in Resources */,
+				186253052C2C8CAA00AAA67E /* Graphik-Super-Trial.otf in Resources */,
+				186252C82C2C8CAA00AAA67E /* GraphikCondensed-BlackItalic-Trial.otf in Resources */,
+				186252D92C2C8CAA00AAA67E /* GraphikXXCondensed-BoldItalic-Trial.otf in Resources */,
+				1862532C2C2C8CAA00AAA67E /* GraphikXXXXCondensed-SemiboldItalic-Trial.otf in Resources */,
+				186252B22C2C8CAA00AAA67E /* GraphikCompact-RegularItalic-Trial.otf in Resources */,
+				186252FD2C2C8CAA00AAA67E /* GraphikXCondensed-BoldItalic-Trial.otf in Resources */,
+				186252AE2C2C8CAA00AAA67E /* GraphikCompact-ExtralightItalic-Trial.otf in Resources */,
+				186252DC2C2C8CAA00AAA67E /* GraphikXXCondensed-SuperItalic-Trial.otf in Resources */,
+				186252F02C2C8CAA00AAA67E /* GraphikXCondensed-SuperItalic-Trial.otf in Resources */,
+				186253302C2C8CAA00AAA67E /* GraphikXXXXCondensed-Medium-Trial.otf in Resources */,
+				186252F22C2C8CAA00AAA67E /* GraphikXCondensed-LightItalic-Trial.otf in Resources */,
+				186252F42C2C8CAA00AAA67E /* GraphikXCondensed-ExtralightItalic-Trial.otf in Resources */,
+				186253252C2C8CAA00AAA67E /* GraphikWide-LightItalic-Trial.otf in Resources */,
+				408942422C2C144D00C2F734 /* Base in Resources */,
+				186252C32C2C8CAA00AAA67E /* GraphikCondensed-RegularItalic-Trial.otf in Resources */,
+				186252BF2C2C8CAA00AAA67E /* GraphikCondensed-Medium-Trial.otf in Resources */,
+				186253082C2C8CAA00AAA67E /* Graphik-Black-Trial.otf in Resources */,
+				186253352C2C8CAA00AAA67E /* GraphikXXXXCondensed-Semibold-Trial.otf in Resources */,
+				186252EC2C2C8CAA00AAA67E /* GraphikXXXCondensed-Semibold-Trial.otf in Resources */,
+				186253062C2C8CAA00AAA67E /* Graphik-Light-Trial.otf in Resources */,
+				186252B92C2C8CAA00AAA67E /* GraphikCompact-SemiboldItalic-Trial.otf in Resources */,
+				186252F72C2C8CAA00AAA67E /* GraphikXCondensed-Medium-Trial.otf in Resources */,
+				186253022C2C8CAA00AAA67E /* Graphik-Regular-Trial.otf in Resources */,
+				186252ED2C2C8CAA00AAA67E /* GraphikXXXCondensed-Thin-Trial.otf in Resources */,
+				186252F52C2C8CAA00AAA67E /* GraphikXCondensed-Semibold-Trial.otf in Resources */,
+				186252AA2C2C8CAA00AAA67E /* GraphikCompact-Regular-Trial.otf in Resources */,
+				186253192C2C8CAA00AAA67E /* GraphikWide-Semibold-Trial.otf in Resources */,
+				1862531D2C2C8CAA00AAA67E /* GraphikWide-Extralight-Trial.otf in Resources */,
+				186252CF2C2C8CAA00AAA67E /* GraphikXXCondensed-SemiboldItalic-Trial.otf in Resources */,
+				186252C22C2C8CAA00AAA67E /* GraphikCondensed-MediumItalic-Trial.otf in Resources */,
+				1862530C2C2C8CAA00AAA67E /* Graphik-RegularItalic-Trial.otf in Resources */,
+				1862531E2C2C8CAA00AAA67E /* GraphikWide-ExtralightItalic-Trial.otf in Resources */,
+				1862532F2C2C8CAA00AAA67E /* GraphikXXXXCondensed-MediumItalic-Trial.otf in Resources */,
+				186253092C2C8CAA00AAA67E /* Graphik-Bold-Trial.otf in Resources */,
+				186252D62C2C8CAA00AAA67E /* GraphikXXCondensed-ExtralightItalic-Trial.otf in Resources */,
+				186252BC2C2C8CAA00AAA67E /* GraphikCondensed-Light-Trial.otf in Resources */,
+				186253312C2C8CAA00AAA67E /* GraphikXXXXCondensed-BlackItalic-Trial.otf in Resources */,
+				1862530F2C2C8CAA00AAA67E /* Graphik-LightItalic-Trial.otf in Resources */,
+				186252E92C2C8CAA00AAA67E /* GraphikXXXCondensed-MediumItalic-Trial.otf in Resources */,
+				186252F82C2C8CAA00AAA67E /* GraphikXCondensed-Black-Trial.otf in Resources */,
+				186252A92C2C8CAA00AAA67E /* GraphikCompact-LightItalic-Trial.otf in Resources */,
+				186252CE2C2C8CAA00AAA67E /* GraphikXXCondensed-Regular-Trial.otf in Resources */,
+				186253272C2C8CAA00AAA67E /* GraphikXXXXCondensed-SuperItalic-Trial.otf in Resources */,
+				186252FE2C2C8CAA00AAA67E /* GraphikXCondensed-Extralight-Trial.otf in Resources */,
+				186252AB2C2C8CAA00AAA67E /* GraphikCompact-ThinItalic-Trial.otf in Resources */,
+				1862531C2C2C8CAA00AAA67E /* GraphikWide-RegularItalic-Trial.otf in Resources */,
+				186252C42C2C8CAA00AAA67E /* GraphikCondensed-Thin-Trial.otf in Resources */,
+				4089423A2C2C144C00C2F734 /* Base in Resources */,
+				186252B52C2C8CAA00AAA67E /* GraphikCompact-Super-Trial.otf in Resources */,
+				186252E02C2C8CAA00AAA67E /* GraphikXXXCondensed-SemiboldItalic-Trial.otf in Resources */,
+				186252CA2C2C8CAA00AAA67E /* GraphikCondensed-ThinItalic-Trial.otf in Resources */,
+				186252DF2C2C8CAA00AAA67E /* GraphikXXXCondensed-BlackItalic-Trial.otf in Resources */,
+				186252D52C2C8CAA00AAA67E /* GraphikXXCondensed-BlackItalic-Trial.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024F50858C11231233FAEC13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobantica/Pods-mobantica-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobantica/Pods-mobantica-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobantica/Pods-mobantica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BA57FDFD4BFC6CAC0C5386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobantica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4089422B2C2C144C00C2F734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4089424B2C2C248800C2F734 /* HomeViewController.swift in Sources */,
+				408942522C2C432500C2F734 /* ProductListTableViewCell.swift in Sources */,
+				1862520A2C2C6F5D00AAA67E /* Product.swift in Sources */,
+				4089423D2C2C144C00C2F734 /* mobantica.xcdatamodeld in Sources */,
+				408942372C2C144C00C2F734 /* ViewController.swift in Sources */,
+				4089424E2C2C36E900C2F734 /* Extension.swift in Sources */,
+				4031E6032C2D505C0038F1CE /* reviewViewController.swift in Sources */,
+				408942332C2C144C00C2F734 /* AppDelegate.swift in Sources */,
+				186253392C2C8F9100AAA67E /* ProductDetailViewController.swift in Sources */,
+				1862520C2C2C816A00AAA67E /* NSURLSession.swift in Sources */,
+				4031E6002C2D4CDD0038F1CE /* reviewTableViewCell.swift in Sources */,
+				408942542C2C45F700C2F734 /* ProductListViewController.swift in Sources */,
+				408942352C2C144C00C2F734 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		408942382C2C144C00C2F734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408942392C2C144C00C2F734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		408942402C2C144D00C2F734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408942412C2C144D00C2F734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		408942442C2C144D00C2F734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408942452C2C144D00C2F734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		408942472C2C144D00C2F734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5E8562C1C65FC55C516969 /* Pods-mobantica.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJP7DL5WD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobantica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testApp.mobantica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		408942482C2C144D00C2F734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535A14EF388E1B4056388D0E /* Pods-mobantica.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTJP7DL5WD;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mobantica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testApp.mobantica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4089422A2C2C144B00C2F734 /* Build configuration list for PBXProject "mobantica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408942442C2C144D00C2F734 /* Debug */,
+				408942452C2C144D00C2F734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408942462C2C144D00C2F734 /* Build configuration list for PBXNativeTarget "mobantica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408942472C2C144D00C2F734 /* Debug */,
+				408942482C2C144D00C2F734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4089423B2C2C144C00C2F734 /* mobantica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4089423C2C2C144C00C2F734 /* mobantica.xcdatamodel */,
+			);
+			currentVersion = 4089423C2C2C144C00C2F734 /* mobantica.xcdatamodel */;
+			path = mobantica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 408942272C2C144B00C2F734 /* Project object */;
+}
